@@ -1,0 +1,111 @@
+<html>
+<head>
+ 
+ <script type="text/javascript" src="http://www.queness.com/js/bsa2.js"></script>
+ <style type="text/css">
+		
+
+		.item {
+			text-align:center;
+			float:left;
+			margin:5px;
+			position:relative;			
+		}
+		
+			.item,
+			.item-hover,
+			.item-hover .mask,
+			.item-img,
+			.item-info {
+				width: 100% ;
+				height: 440px;	
+			}
+
+			.item-hover,
+			.item-hover .mask,
+			.item-img { 
+				position:absolute;
+				top:0;
+				left:0;			
+			}			
+		
+			.item-type-line .item-hover {	
+				z-index:100;	
+				-webkit-transition: all 300ms ease-out;
+				-moz-transition: all 300ms ease-out;
+				-o-transition: all 300ms ease-out;
+				transition: all 300ms ease-out;	
+				opacity:0;
+				cursor:pointer;						
+				display:block;
+				text-decoration:none;
+				text-align:center;
+			}
+			
+				.item-type-line .item-info {
+					z-index:10;
+					color:#ffffff;
+					display:table-cell;
+					vertical-align:middle;
+					position:relative;
+					z-index:5;				 					
+				}
+			
+				.item-type-line .item-info .headline {
+					font-size:20px;					
+				}
+				
+				.item-type-line .item-info .line {
+					 height:1px;
+					 width:0%;
+					 margin:15px auto;
+					 background-color:#ffffff;
+					-webkit-transition: all 500ms ease-out;
+					-moz-transition: all 500ms ease-out;
+					-o-transition: all 500ms ease-out;
+					transition: all 500ms ease-out;					 
+
+				}
+				
+				.item-type-line .item-info .date {
+					font-size:12px;
+				}
+				
+				.item-type-line .item-hover .mask {
+					background-color:#000;
+					-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+					filter: alpha(opacity=50);										
+					opacity:0.5;
+					z-index:0;
+				}
+				
+				.item-type-line .item-hover:hover .line {
+					width:40%;
+				}
+				
+				.item-type-line .item-hover:hover {
+					opacity:1;
+				}				
+			
+			.item-img {			
+				background-color:#7a548f;
+				z-index:0;			
+			}
+					
+		
+	</style>
+</head>
+<body>
+<div class="item item-type-line">
+		<a class="item-hover" href="http://dribbble.com/shots/1313878-Hand-Lettering-Process" target="_blank">
+			<div class="item-info">
+				<div class="headline">Hand Lettering Process</div>
+				<div class="line"></div>
+				<div class="date">February 29, 2014</div>
+			</div>
+			<div class="mask"></div>
+		</a>
+		<div class="item-img"><img src="image/1.jpg" alt="" /></div>
+	</div>
+</body>
+</html>

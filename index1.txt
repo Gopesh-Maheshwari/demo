@@ -1,0 +1,19 @@
+<html>
+<head>
+ <link rel="stylesheet" href="css/style123.css">
+</head>
+<body>
+<div class="content-item">
+  
+  <div class="overlay"></div>
+  
+  <div class="corner-overlay-content">Info</div>
+  
+  <div class="overlay-content">
+    <h2>Image Ink Logo</h2>
+    <p>Logo for a screen printing company. They wanted a detachable/recognizable brand that didn't need the name of the company.</p>
+  </div>
+  
+</div>
+</body>
+</html>
